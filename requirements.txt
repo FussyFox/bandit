@@ -1,0 +1,2 @@
+lintipy==0.2.3
+bandit==1.4.0
