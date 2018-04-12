@@ -7,7 +7,7 @@ python:
 jobs:
   include:
   - stage: deploy
-    script: ./build_with_docker.sh
+    script: "./build_with_docker.sh"
     deploy:
       provider: lambda
       edge: true
@@ -20,8 +20,8 @@ jobs:
       handler_name: handle
       timeout: 300
       dot_match: true
-      access_key_id: AKIAINENHLYKCWO3O7HA
+      access_key_id: AKIAIQHWJ4DO6Q4MCT2A
       secret_access_key:
-        secure: RQ0XhJGfgiFGA6FlmedEPi5XjLKYZIUbOsRMewnxrfjGVNZcJtq9tjTO+yrIzPH7UXAbGx2/EQ/6ttj0a2OhtTWPshsxj2qVXidzBqaZ/LpUGP9w6F9ewOuP9tvIZNfjId8z//lRsmpuUUV+T50TZqBO1XoZPU/SAknpmcosfdnkLfFkJbVfFXK4+2yMUzf1eGNrsJQ+5lSep3AVUoBdbTjnnRDjTwX+2GoVwuf+eCuQYQZ9h5iT4sHhRzDmFopApn3kGFHIcTfgPeTAr17kk0rzM/jvz44yjtLvKFy6oY+DFPE7PkNLrKivujLfc8lKdKeec4O7qUciopzH2yH4JhI7+OOhGzjpiNPwFnMkJEmKF/fmARwEMjzr5LMZPcyJrbKZkp3b8dFzicXxuCFWsrXRE/sR/9EFchaakQZgkqJLElT7MifbBB7K4DmmWGTzXYrUid5jpjXzEKW4RGUsX+74T0Q9y55zMSGlxa10WyCWng7PjBu/xIDUn1n4I0tpFUnaWyGS34Pth7zn7NP1JyrNmD0xGH+Unbd7hYxix7XEiVgCfDnatXM/ddyUbiDsioZc+DvqRRcCpdEadanlfhHdi5tWvb5ekWvX5BcHyuP4tgH5ew00WdIWRsOJzg/6g8Z2ZzeakzZh3Cfgkso08WdyDrDUDj0Hg69h8YRhDIo=
+        secure: XP9y6UnhF2WKnb6XRma+Kywwh5rCZeBYHSAVF0+b44tITtjS35JE6i5SJP0JOpp2R3uRw/CWI/WuNYmUP8tphduBx6UWBDWetmvWuA9XevQ+t7SnPvLFcPWAZKhU4osz58RYe+YzZFZZ7pvenR4tPOtVrj5pn7mmKEFTxvMuWIOrZGOK7teMkn6m7hpOnkh4jvucYnWHiU75N/XJQeUpdj3HF+Iuwc33M1U+HCH7fL9+Id0GaGQ3fNo//vDp3dctu4fz52ABsTgG6ltP3gIESzC/HcQ5I5muglStZeEvZma+c7BoU8Kh4HAYInF79bPdeol924QtXHimdViGPOH22ZuiV0mT+B+4EQ5w2Waj6cUJYtQabZYjrSIpy61EOGTBaScmN+xSZaPyj90Y6c57fltVgBVESvrtWreiDa1qRwlJ9RFypX9J3va2FPsdO+IHL9x/x+/wpOYyC4Q36ivmbv6p6g3KqXoYrtXqnhNyUG8F18LuH3jJw++McgWU4u9eIAgEr3TEOK2U5PDofOZ9Y+tl0W8z0lvtqrOI8QYQORIyoa2rd//ir8AH244RObt5xC8JVdJPmZkfO/bExzoPz9oDRaM/3jD/ewXxlwbzGwaWz3HF/l8SrqfKM+H1trL3a5bXXRtrAKR+O+PxFBbl1/f/XpIZQOY51W1dXeAuBfo=
       on:
         repo: LambdaLint/bandit
