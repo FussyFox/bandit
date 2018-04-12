@@ -1,1 +1,2 @@
-# bandit
+# Bandit
+Bandit on AWS Lambda
