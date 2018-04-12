@@ -11,4 +11,7 @@ root_logger.addHandler(logging.StreamHandler(sys.stdout))
 
 def handle(*args, **kwargs):
     """Handle that is invoked by AWS lambda."""
-    Handler('bandit', 'bandit', '-r', '.')(*args, **kwargs)
+    Handler(
+        'bandit',
+        'bandit.cli.main', '-r', '.'
+    )(*args, **kwargs)
