@@ -10,4 +10,7 @@ root_logger.addHandler(logging.StreamHandler(sys.stdout))
 
 
 def handle(*args, **kwargs):
-    Handler('bandit', 'bandit', '-r', '.')(*args, **kwargs)
+    Handler(
+        'bandit',
+         'python', '-m', 'bandit.cli.main', '-r', '.'
+    )(*args, **kwargs)
