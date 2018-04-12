@@ -14,7 +14,7 @@ jobs:
       skip_cleanup: true
       function_name: lambdalint_bandit
       region: eu-west-1
-      role: arn:aws:lambda:eu-west-1:327092303989:function:lambdalint_bandit
+      role: arn:aws:iam::327092303989:role/lambda-lint_lambda_function
       runtime: python3.6
       module_name: main
       handler_name: handle
