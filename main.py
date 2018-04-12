@@ -1,4 +1,4 @@
-"""Lambda function that executes pycodestyle, a static file linter."""
+"""Lambda function that executes bandit, a static file linter."""
 import logging
 import sys
 
