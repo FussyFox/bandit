@@ -20,8 +20,8 @@ jobs:
       handler_name: handle
       timeout: 300
       dot_match: true
-      access_key_id: AKIAIQHWJ4DO6Q4MCT2A
+      access_key_id: AKIAJTUSZCFJO2PNDFHQ
       secret_access_key:
-        secure: XP9y6UnhF2WKnb6XRma+Kywwh5rCZeBYHSAVF0+b44tITtjS35JE6i5SJP0JOpp2R3uRw/CWI/WuNYmUP8tphduBx6UWBDWetmvWuA9XevQ+t7SnPvLFcPWAZKhU4osz58RYe+YzZFZZ7pvenR4tPOtVrj5pn7mmKEFTxvMuWIOrZGOK7teMkn6m7hpOnkh4jvucYnWHiU75N/XJQeUpdj3HF+Iuwc33M1U+HCH7fL9+Id0GaGQ3fNo//vDp3dctu4fz52ABsTgG6ltP3gIESzC/HcQ5I5muglStZeEvZma+c7BoU8Kh4HAYInF79bPdeol924QtXHimdViGPOH22ZuiV0mT+B+4EQ5w2Waj6cUJYtQabZYjrSIpy61EOGTBaScmN+xSZaPyj90Y6c57fltVgBVESvrtWreiDa1qRwlJ9RFypX9J3va2FPsdO+IHL9x/x+/wpOYyC4Q36ivmbv6p6g3KqXoYrtXqnhNyUG8F18LuH3jJw++McgWU4u9eIAgEr3TEOK2U5PDofOZ9Y+tl0W8z0lvtqrOI8QYQORIyoa2rd//ir8AH244RObt5xC8JVdJPmZkfO/bExzoPz9oDRaM/3jD/ewXxlwbzGwaWz3HF/l8SrqfKM+H1trL3a5bXXRtrAKR+O+PxFBbl1/f/XpIZQOY51W1dXeAuBfo=
+        secure: "vm3QPkn0IIL7x8luhkpmDZAb5ro6k1igGUddcPzoMpkGC8oW/3Py346iQhCIdSk+ecmsWY/8mXguhlPB5/KdOrO+hrW3jZv2Coj+edvLnB5pAfLLYU86W0dwwCw8M334/daPzcLWwrXmMZJD/q+Gz+Y6ULc66Y94pDJZ64GdinF56B1DKTgasMwq4/CXYGbcd4CsQb0Mh5sq8MEIl580PTSfxN17XlroTe4BqkW10WcLmtAx1uOhbvo5hhA1MYCkMYPJUWLwoZR3oUTTDIPp8KfJkltq9I1m+h9Nh0siwvajemD67gSdBMVwTszptnX6uzczo2SKWZp8TsNjKmS98OJdEt0QL1nPAbl565xTYa7osy4QGofmXdFPBPxpoyLQP0zQspDZTLVxRDVhHhbP/vsKtTCBWLigpvO+Pppi4bCTK4mXW7icw3RpQN/n8CGaj++RhBby8nnQS09MBh2C/4R6/sNCkwDR8Itxq3Qld6JB9djylbCgpirfiNsCJf/CgRvYB3JKdcBiBqGtLNZIQgVHIqiYpcJu7qT4MDmByrvyMP1Tdl48nbV8m5A4Ojf/DV3Y9S2nLmEfpqzfQb2/p8xQJNLrxsWAGSnUtFqpdMuTfSOJF3bepOcNwAaKrHJ26DyXTH2XVmnWJIclj+u46p5ek2PwhPJIVVzltESZ38w="
       on:
         repo: LambdaLint/bandit
