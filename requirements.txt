@@ -1,2 +1,2 @@
-lintipy==1.0.1
+lintipy==1.1.0
 bandit==1.5.1
