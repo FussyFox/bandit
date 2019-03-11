@@ -9,9 +9,7 @@ root_logger.setLevel(logging.DEBUG)
 root_logger.addHandler(logging.StreamHandler(sys.stdout))
 
 
-def handle(*args, **kwargs):
-    """Handle that is invoked by AWS lambda."""
-    CheckRun(
-        'bandit',
-        'bandit.cli.main', '-r', '.'
-    )(*args, **kwargs)
+handle = CheckRun.as_handler(
+    'bandit',
+    'bandit.cli.main', '-r', '.'
+)
