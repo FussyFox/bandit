@@ -1,2 +1,2 @@
 lintipy==1.2.1
-bandit==1.5.1
+bandit==1.6.1
